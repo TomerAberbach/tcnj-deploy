@@ -1,18 +1,3 @@
-# TCNJ Deploy
-
-A bash script for easily deploying a directory of website files to your personal TCNJ website at https://www.tcnj.edu/~<username>.
-
-Usage:
-```shell
-$ ./tcnj-deploy <directory>
-```
-
-Your `~/www` directory is cleared prior to copying your files so use with caution!
-
-The proper permissions are set on your copied files for you.
-
-The code can be seen here:
-```bash
 #!/usr/bin/env bash
 
 if [[ -d "$1" ]]; then
@@ -40,4 +25,3 @@ if [[ -d "$1" ]]; then
 else
    echo "Usage: ./tcnj-deploy.sh <directory>"
 fi
-```
