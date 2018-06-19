@@ -1,6 +1,6 @@
 # TCNJ Deploy
 
-A bash script for easily deploying a directory of website files to your personal TCNJ website at https://www.tcnj.edu/~<username>.
+A bash script for easily deploying a directory of website files to your personal TCNJ website at https://www.tcnj.edu/~username.
 
 Usage:
 ```shell
