@@ -4,7 +4,7 @@ A bash script for easily deploying a directory of website files to your personal
 
 Usage:
 ```shell
-$ ./tcnj-deploy <directory>
+$ ./tcnj-deploy.sh <directory>
 ```
 
 Your `~/www` directory is cleared prior to copying your files so use with caution!
