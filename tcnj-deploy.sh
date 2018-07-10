@@ -3,10 +3,11 @@
 if [[ -d "$1" ]]; then
     read -p "This will overwrite everything in '~/www' with the contents of '$1'. Continue? (y/n) " -n 1 -r
     echo
+    echo
 
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         read -p "Username: " -r username
-        tar -c -C $1 . | gzip -2 | ssh -o ConnectTimeout=10 "$username@beauty.tcnj.edu" "rm -rf ~/www > /dev/null; mkdir -p ~/www; tar -zx -C ~/www; wwwsetup > /dev/null; chmod -R +rxX ~/www; echo; echo \"Deployment successful!\""
+        tar -c -C $1 . | gzip -2 | ssh -o ConnectTimeout=10 "$username@beauty.tcnj.edu" "rm -rf ~/www > /dev/null; mkdir -p ~/www; tar -zx -C ~/www; cd ~/www; find -type d -exec chmod 755 {} \;; find -type f -exec chmod 644 {} \;; echo; echo \"Deployment successful!\""
         
         if [[ $? -ne 0 ]]; then
             echo
