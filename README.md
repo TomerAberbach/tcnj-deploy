@@ -1,9 +1,10 @@
 # TCNJ Deploy
 
-A bash script for easily deploying a directory of website files to your personal TCNJ website at https://www.tcnj.edu/~username.
+> A bash script for easily deploying a directory of website files to your personal TCNJ website at https://www.tcnj.edu/~username.
 
-Usage:
-```shell
+## Usage
+
+```sh
 $ ./tcnj-deploy.sh <directory>
 ```
 
@@ -42,3 +43,21 @@ else
    echo "Usage: ./tcnj-deploy.sh <directory>"
 fi
 ```
+
+## Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/TomerADev/tcnj-deploy/issues/new).
+
+## Author
+
+**Tomer Aberbach**
+
+* [Github](https://github.com/TomerADev)
+* [NPM](https://www.npmjs.com/~tomeraberbach)
+* [LinkedIn](https://www.linkedin.com/in/tomer-a)
+* [Website](https://tomeraberba.ch)
+
+## License
+
+Copyright © 2018 [Tomer Aberbach](https://github.com/TomerADev)
+Released under the [MIT license](https://github.com/TomerADev/tcnj-deploy/blob/master/LICENSE).
