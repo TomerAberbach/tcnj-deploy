@@ -2,6 +2,16 @@
 
 > A bash script for easily deploying a directory of website files to your personal TCNJ website at https://www.tcnj.edu/~username.
 
+## Install
+
+Clone the [repository](https://github.com/TomerADev/tcnj-deploy):
+
+```sh
+$ git clone https://github.com/TomerADev/tcnj-deploy.git
+```
+
+Or download the `tcnj-deploy.sh` file from [here](https://raw.githubusercontent.com/TomerADev/tcnj-deploy/master/tcnj-deploy.sh).
+
 ## Usage
 
 ```sh
