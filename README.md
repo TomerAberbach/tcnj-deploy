@@ -4,13 +4,13 @@
 
 ## Install
 
-Clone the [repository](https://github.com/TomerADev/tcnj-deploy):
+Clone the [repository](https://github.com/TomerAberbach/tcnj-deploy):
 
 ```sh
-$ git clone https://github.com/TomerADev/tcnj-deploy.git
+$ git clone https://github.com/TomerAberbach/tcnj-deploy.git
 ```
 
-Or download the `tcnj-deploy.sh` file from [here](https://raw.githubusercontent.com/TomerADev/tcnj-deploy/master/tcnj-deploy.sh).
+Or download the `tcnj-deploy.sh` file from [here](https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/master/tcnj-deploy.sh).
 
 ## Usage
 
@@ -43,7 +43,7 @@ if [[ -d "$1" ]]; then
             if [[ "$(uname)" == "Darwin" ]]; then
                 echo "Mac VPN Tutorial: http://nts.pages.tcnj.edu/files/2014/08/PAN-VPN-Instructions.pdf"
             elif [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
-                echo "Linux VPN Tutorial: https://tomeraberba.ch/html/article/tcnj-linux-vpn.html"
+                echo "Linux VPN Tutorial: https://tomeraberba.ch/post/article/tcnj-linux-vpn.html"
             else
                 echo "Windows VPN Tutorial: http://nts.pages.tcnj.edu/files/2014/08/PAN-VPN-Instructions.pdf"
             fi
@@ -56,18 +56,18 @@ fi
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/TomerADev/tcnj-deploy/issues/new).
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/TomerAberbach/tcnj-deploy/issues/new).
 
 ## Author
 
 **Tomer Aberbach**
 
-* [Github](https://github.com/TomerADev)
+* [Github](https://github.com/TomerAberbach)
 * [NPM](https://www.npmjs.com/~tomeraberbach)
 * [LinkedIn](https://www.linkedin.com/in/tomer-a)
 * [Website](https://tomeraberba.ch)
 
 ## License
 
-Copyright © 2018 [Tomer Aberbach](https://github.com/TomerADev)
-Released under the [MIT license](https://github.com/TomerADev/tcnj-deploy/blob/master/LICENSE).
+Copyright © 2018 [Tomer Aberbach](https://github.com/TomerAberbach)
+Released under the [MIT license](https://github.com/TomerAberbach/tcnj-deploy/blob/master/LICENSE).

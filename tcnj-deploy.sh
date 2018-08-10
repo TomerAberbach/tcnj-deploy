@@ -17,7 +17,7 @@ if [[ -d "$1" ]]; then
             if [[ "$(uname)" == "Darwin" ]]; then
                 echo "Mac VPN Tutorial: http://nts.pages.tcnj.edu/files/2014/08/PAN-VPN-Instructions.pdf"
             elif [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
-                echo "Linux VPN Tutorial: https://tomeraberba.ch/html/article/tcnj-linux-vpn.html"
+                echo "Linux VPN Tutorial: https://tomeraberba.ch/html/post/tcnj-linux-vpn.html"
             else
                 echo "Windows VPN Tutorial: http://nts.pages.tcnj.edu/files/2014/08/PAN-VPN-Instructions.pdf"
             fi
