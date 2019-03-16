@@ -24,5 +24,5 @@ if [[ -d "$1" ]]; then
         fi
     fi
 else
-   echo "Usage: ./tcnj-deploy.sh <directory>"
+   echo "Usage: tcnj-deploy <directory>"
 fi

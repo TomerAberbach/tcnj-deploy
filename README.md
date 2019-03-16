@@ -4,18 +4,22 @@
 
 ## Install
 
-Clone the [repository](https://github.com/TomerAberbach/tcnj-deploy):
+If you have `curl` installed (or can install it by running `sudo apt install curl`):
 
 ```sh
-$ git clone https://github.com/TomerAberbach/tcnj-deploy.git
+$ sudo curl -o /usr/bin/tcnj-deploy https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/master/tcnj-deploy.sh
 ```
 
-Or download the `tcnj-deploy.sh` file from [here](https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/master/tcnj-deploy.sh).
+Otherwise download the [script](https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/master/tcnj-deploy.sh) and rename/move it to `/usr/bin`:
+
+```sh
+$ sudo mv tcnj-deploy.sh /usr/bin/tcnj-deploy.sh
+```
 
 ## Usage
 
 ```sh
-$ ./tcnj-deploy.sh <directory>
+$ tcnj-deploy.sh <directory>
 ```
 
 Your `~/www` directory is cleared prior to copying your files so use with caution!
@@ -50,8 +54,16 @@ if [[ -d "$1" ]]; then
         fi
     fi
 else
-   echo "Usage: ./tcnj-deploy.sh <directory>"
+   echo "Usage: tcnj-deploy.sh <directory>"
 fi
+```
+
+## Uninstall
+
+Simply remove the the script file:
+
+```sh
+$ sudo rm /usr/bin/tcnj-deploy
 ```
 
 ## Contributing
