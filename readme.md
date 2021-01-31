@@ -7,10 +7,10 @@
 If you have `curl` installed (or can install it by running `sudo apt install curl`):
 
 ```sh
-$ sudo curl -o /usr/bin/tcnj-deploy https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/master/tcnj-deploy.sh
+$ sudo curl -o /usr/bin/tcnj-deploy https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/main/tcnj-deploy.sh
 ```
 
-Otherwise download the [script](https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/master/tcnj-deploy.sh) and rename/move it to `/usr/bin`:
+Otherwise download the [script](https://raw.githubusercontent.com/TomerAberbach/tcnj-deploy/main/tcnj-deploy.sh) and rename/move it to `/usr/bin`:
 
 ```sh
 $ sudo mv tcnj-deploy.sh /usr/bin/tcnj-deploy
@@ -42,4 +42,4 @@ $ sudo rm /usr/bin/tcnj-deploy
 
 ## License
 
-[MIT](https://github.com/TomerAberbach/tcnj-deploy/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
+[MIT](https://github.com/TomerAberbach/tcnj-deploy/blob/main/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
